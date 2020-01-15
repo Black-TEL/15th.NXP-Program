@@ -1,0 +1,17 @@
+"D:\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+
+"D:\IAR Systems\Embedded Workbench 8.0\arm\bin\armjlink2.dll" 
+
+"D:\15th.NXP\15th.NXP-Software\OLED_Program\Prj\IAR\Debug\Exe\fire_demo.out" 
+
+--plugin "D:\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--device_macro "D:\IAR Systems\Embedded Workbench 8.0\arm\config\debugger\NXP\Kxx.dmac" 
+
+--device_macro "D:\IAR Systems\Embedded Workbench 8.0\arm\config\debugger\NXP\Kxx_Trace.dmac" 
+
+--flash_loader "D:\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Freescale\FlashK60Xxxx.board" 
+
+
+
+

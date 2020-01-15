@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\15th.NXP\Program\Prj\IAR\settings\fire_demo.Debug.general.xcl" --backend -f "D:\15th.NXP\Program\Prj\IAR\settings\fire_demo.Debug.driver.xcl" 
+& "D:\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\15th.NXP\15th.NXP-Program\Program\Prj\IAR\settings\fire_demo.Debug.general.xcl" --backend -f "D:\15th.NXP\15th.NXP-Program\Program\Prj\IAR\settings\fire_demo.Debug.driver.xcl" 
 }
 else
 {
-& "D:\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\15th.NXP\Program\Prj\IAR\settings\fire_demo.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\15th.NXP\Program\Prj\IAR\settings\fire_demo.Debug.driver.xcl" 
+& "D:\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\15th.NXP\15th.NXP-Program\Program\Prj\IAR\settings\fire_demo.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\15th.NXP\15th.NXP-Program\Program\Prj\IAR\settings\fire_demo.Debug.driver.xcl" 
 }

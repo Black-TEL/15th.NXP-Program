@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\15th.NXP\Program\Prj\IAR\settings\fire_demo.Debug.general.xcl" --backend -f "D:\15th.NXP\Program\Prj\IAR\settings\fire_demo.Debug.driver.xcl" 
+"D:\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\15th.NXP\15th.NXP-Program\Program\Prj\IAR\settings\fire_demo.Debug.general.xcl" --backend -f "D:\15th.NXP\15th.NXP-Program\Program\Prj\IAR\settings\fire_demo.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\15th.NXP\Program\Prj\IAR\settings\fire_demo.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\15th.NXP\Program\Prj\IAR\settings\fire_demo.Debug.driver.xcl" 
+"D:\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\15th.NXP\15th.NXP-Program\Program\Prj\IAR\settings\fire_demo.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\15th.NXP\15th.NXP-Program\Program\Prj\IAR\settings\fire_demo.Debug.driver.xcl" 
 
 @echo off 
 :end

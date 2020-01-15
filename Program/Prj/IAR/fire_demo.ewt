@@ -2415,6 +2415,9 @@
     <group>
         <name>Board</name>
         <file>
+            <name>$PROJ_DIR$\..\..\Board\src\I2C.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\..\Board\src\supersonic_wave.c</name>
         </file>
         <file>
